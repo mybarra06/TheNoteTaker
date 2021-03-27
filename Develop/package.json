@@ -1,14 +1,16 @@
 {
-  "name": "note-taker",
+  "name": "thenotetaker",
   "version": "1.0.0",
-  "description": "",
+  "description": "take notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "error",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mybarra06"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+  "license": "ISC"
 }
